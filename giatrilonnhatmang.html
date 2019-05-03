@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    //Cách 1
+    // let mang=[1,5,4,54,23,14,-5,12,16];
+    // mang.sort(function (a,b) {return a-b});
+    // alert("Số lớn nhất là:"+mang[mang.length-1]);
+
+    // Cách 2
+    let mang=[1,5,4,54,23,14,-5,12,16];
+    let max=mang[0];
+    for (let i=1;i<=mang.length-1;i++){
+        if (max<mang[i]){
+            max=mang[i];
+        }
+    }
+    alert(max);
+    //Cách 3
+
+</script>
+</body>
+</html>
